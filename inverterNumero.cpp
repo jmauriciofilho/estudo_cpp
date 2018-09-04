@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-    int n, reversedNumber = 0, remainder;
+    int n, numReverso = 0, resto;
 
     cout << "Informe um numero inteiro: ";
     cin >> n;
 
     while(n != 0)
     {
-        remainder = n%10;
-        reversedNumber = reversedNumber*10 + remainder;
-        n /= 10;
+        resto = n%10;
+        numReverso = numReverso*10 + resto;
+        n = n / 10;
     }
 
-    cout << "O numero invertido fica: " << reversedNumber;
+    cout << "O numero invertido fica: " << numReverso;
 
     return 0;
 }

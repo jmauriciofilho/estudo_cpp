@@ -11,7 +11,7 @@ int main()
 
     for(int i = 1; i <=n; ++i)
     {
-        factorial *= i;
+        factorial = factorial * i;
     }
 
     cout << "Fatorial de " << n << " é igual a " << factorial;    

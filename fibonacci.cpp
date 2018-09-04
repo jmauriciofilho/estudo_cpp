@@ -3,21 +3,21 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int t1 = 0; 
-    int t2 = 1; 
-    int nextTerm = 0;
+    long n;
+    long t1 = 0; 
+    long t2 = 1; 
+    long nextTerm = 0;
 
     cout << "Informe o numero de termos: ";
     cin >> n;
 
     cout << "A serie de Fibonacci é: ";
 
-    for (int i = 1; i <= n; ++i)
+    for (long i = 1; i <= n; ++i)
     {
         if(i == 1)
         {
-            cout << " " << t1;
+            cout << " " << t1 << " ";
             continue;
         }
 
